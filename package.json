@@ -1,0 +1,26 @@
+{
+  "name": "@openclaw/llm-retry-handler",
+  "version": "1.0.0",
+  "description": "LLM-based JSON validation retry handler for OpenClaw",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test-retry-handler.js"
+  },
+  "keywords": [
+    "openclaw",
+    "llm",
+    "retry",
+    "json-validation"
+  ],
+  "author": "OpenClaw Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "partial-json": "^0.1.7"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
